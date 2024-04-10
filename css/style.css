@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.metas{
+    height: 25vh;
+    width: 20vw;
+    background-color: aqua;
+    border-radius: 20%;
+    justify-content: center;
+}
