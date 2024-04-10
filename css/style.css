@@ -8,6 +8,14 @@
     height: 25vh;
     width: 20vw;
     background-color: aqua;
-    border-radius: 20%;
+    border-radius: 10%;
     justify-content: center;
+    align-items: center;
+    
+}
+#adicionar-meta{
+    width: 8vw;
+    height: 3vh;
+    border-radius: 10px;
+    display: inline-flex;
 }
