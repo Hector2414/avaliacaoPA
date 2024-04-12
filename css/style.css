@@ -4,16 +4,40 @@
     box-sizing: border-box;
 }
 
-.metas{
+.metas-estabelecida{
     height: 25vh;
     width: 20vw;
     background-color: aqua;
     border-radius: 10%;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    position: relative;
     
 }
 #adicionar-meta{
+    width: 8vw;
+    height: 3vh;
+    border-radius: 10px;
+    display: inline-flex;
+}
+.navbar{
+    position: relative;
+    padding: 30px;
+    left: 600px;
+}
+.habitos-estabelecidos{
+    height: 25vh;
+    width: 20vw;
+    background-color: lightgreen;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+#adicionar-habito{
     width: 8vw;
     height: 3vh;
     border-radius: 10px;
