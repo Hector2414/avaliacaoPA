@@ -10,15 +10,31 @@
 <body>
     <nav class="navbar">Metas pessoais</nav>
     <div class="espaco-de-metas">
-<div class="metas-estabelecida" id="meta-estabelecida"></div>
-    <input type="text" id="metas">
-    <button id="adicionar-meta" onclick="pegarMetas()">adicionar uma meta</button>
+        <div class="metas-estabelecida" id="meta-estabelecida">
+            <h2>Metas</h2>
+            <!-- Lista de metas -->
+        </div>
+        <div class="espaco-de-input">
+            <input type="text" id="metas" placeholder="Adicionar uma meta">
+            <button id="adicionar-meta" onclick="pegarMetas()">Adicionar uma meta</button>
+        </div>
     </div>
 
     <div class="espaco-de-habitos">
-        <div class="habitos-estabelecidos" id="habitos-estabelecidos"></div>
-        <input type="text" id="habitos">
-        <button id="adicionar-habito">Adicionar um hábito</button>
+        <div class="habitos-estabelecidos" id="habitos-estabelecidos">
+            <h2>Hábitos</h2>
+            <!-- Lista de hábitos -->
+        </div>
+        <div class="espaco-de-input">
+            <input type="text" id="habitos" placeholder="Adicionar um hábito">
+            <button id="adicionar-habito" onclick="pegarHabitos()">Adicionar um hábito</button>
+        </div>
+    </div>
+
+    <div class="progresso">
+        <h2>Progresso</h2>
+        <progress id="progress-bar" max="100" value="0"></progress>
+        <p id="mensagem-progresso"></p>
     </div>
 
     

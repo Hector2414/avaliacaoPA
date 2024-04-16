@@ -1,45 +1,80 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.metas-estabelecida{
-    height: 25vh;
-    width: 20vw;
-    background-color: aqua;
-    border-radius: 10%;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    position: relative;
-    
+body {
+    font-family: Arial, sans-serif;
 }
-#adicionar-meta{
-    width: 8vw;
-    height: 3vh;
+
+.navbar {
+    padding: 20px;
+    text-align: center;
+}
+
+.espaco-de-metas,
+.espaco-de-habitos {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.metas-estabelecida,
+.habitos-estabelecidos {
+    margin-bottom: 20px;
+    padding: 10px;
     border-radius: 10px;
-    display: inline-flex;
-}
-.navbar{
-    position: relative;
-    padding: 30px;
-    left: 600px;
-}
-.habitos-estabelecidos{
-    height: 25vh;
-    width: 20vw;
-    background-color: lightgreen;
-    border-radius: 10%;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
     position: relative;
 }
 
-#adicionar-habito{
-    width: 8vw;
+.metas-estabelecida {
+    background-color: aqua;
+    width: 20vw;
+    height: 25vh;
+}
+
+.habitos-estabelecidos {
+    background-color: lightgreen;
+    width: 20vw;
+    height: 25vh;
+}
+
+.espaco-de-input {
+    margin-top: 10px;
+}
+
+#adicionar-meta,
+#adicionar-habito {
+    width: 10%;
     height: 3vh;
     border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.botao-excluir {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #ff6666;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.checkbox-label {
     display: inline-flex;
+    align-items: center;
+}
+
+.checkbox-label input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.checkbox-label span {
+    display: none;
 }
