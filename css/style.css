@@ -6,12 +6,19 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-color: #124BCC;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* Navbar */
 .navbar {
-    padding: 20px;
+    padding: 100px; /* Diminui o padding para reduzir a altura */
     text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 40px;
 }
+
 
 .espaco-de-metas,
 .espaco-de-habitos {
@@ -28,13 +35,13 @@ body {
 }
 
 .metas-estabelecida {
-    background-color: aqua;
+    background-color: #fff;
     width: 20vw;
     height: 25vh;
 }
 
 .habitos-estabelecidos {
-    background-color: lightgreen;
+    background-color: #fff;
     width: 20vw;
     height: 25vh;
 }
