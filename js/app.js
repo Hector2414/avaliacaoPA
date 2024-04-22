@@ -49,14 +49,14 @@ function pegarMetas() {
 
 // Função para pegar os hábitos do input e adicioná-los à div
 function pegarHabitos() {
-    // Pegar o valor do input
+    // Pega o valor do input
     var habito = document.getElementById("habitos").value;
 
-    // Criar um elemento de parágrafo para o novo hábito
+    // Cria um elemento de parágrafo para o novo hábito
     var paragrafo = document.createElement("p");
     paragrafo.textContent = habito;
 
-    // Criar uma checkbox
+    // Cria a checkbox
     var checkbox = document.createElement("input");
     checkbox.type = "checkbox";
     checkbox.addEventListener("change", atualizarProgresso);
