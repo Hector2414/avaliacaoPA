@@ -2,14 +2,21 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   
+
 }
 
 body {
     font-family: Arial, sans-serif;
     background-color: #124BCC;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
-
+#metas{
+    border-radius: 5px;
+}
+#habitos{
+    border-radius: 5px;
+}
 /* Navbar */
 .navbar {
     padding: 100px; /* Diminui o padding para reduzir a altura */
@@ -17,6 +24,8 @@ body {
     background-color: #fff;
     border-radius: 20px;
     margin: 40px;
+    box-shadow: 10px 10px 1em black;
+     
 }
 
 
@@ -24,6 +33,7 @@ body {
 .espaco-de-habitos {
     margin-top: 20px;
     text-align: center;
+   
 }
 
 .metas-estabelecida,
@@ -38,12 +48,15 @@ body {
     background-color: #fff;
     width: 20vw;
     height: 25vh;
+     box-shadow: 10px 10px 1em black;
+     font-family: Arial, Helvetica, sans-serif;
 }
 
 .habitos-estabelecidos {
     background-color: #fff;
     width: 20vw;
     height: 25vh;
+    box-shadow: 10px 10px 1em black;
 }
 
 .espaco-de-input {
@@ -58,7 +71,7 @@ body {
     margin-top: 10px;
     cursor: pointer;
 }
-.botao-excluir {
+/*.botao-excluir {
     position: absolute;
     top: 5px;
     right: 5px;
@@ -70,7 +83,8 @@ body {
     height: 20px;
     cursor: pointer;
     display: none;
-}
+}*/
+
 
 
 .checkbox-label {
@@ -85,15 +99,8 @@ body {
 .checkbox-label span {
     display: none;
 }
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
-body {
-    font-family: Arial, sans-serif;
-}
+
 
 .navbar {
     padding: 20px;
@@ -174,19 +181,9 @@ body {
         max-width: none; /* Removendo a largura máxima */
     }
 }
-.chat-lembretes {
-    margin-top: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    max-height: 200px;
-    overflow-y: auto;
-    width: 90%; /* Ajuste da largura */
-    max-width: 400px; /* Limitando a largura máxima */
-    margin: auto; /* Centralizando horizontalmente */
-}
 
-/* Estilos das mensagens de lembretes */
+
+/* Estilos das mensagens de lembretes 
 .mensagem-bot {
     background-color: #f0f0f0;
     padding: 5px 10px;
@@ -200,3 +197,17 @@ body {
     border-radius: 10px;
     margin-bottom: 10px;
 }
+
+.chat-lembretes {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 90%; // Ajuste da largura 
+    max-width: 400px; // Limitando a largura máxima 
+    margin: auto; // Centralizando horizontalmente 
+}
+*/
+

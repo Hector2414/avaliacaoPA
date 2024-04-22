@@ -68,14 +68,15 @@ function pegarHabitos() {
     checkboxLabel.appendChild(document.createTextNode(""));
 
     // Criar um botão de exclusão
-    var botaoExcluir = document.createElement("button");
+    /*var botaoExcluir = document.createElement("button");
     botaoExcluir.textContent = "X";
     botaoExcluir.classList.add("botao-excluir");
     botaoExcluir.addEventListener("click", function() {
         divHabitosEstabelecidos.removeChild(paragrafo);
         divHabitosEstabelecidos.removeChild(checkboxLabel);
         divHabitosEstabelecidos.removeChild(botaoExcluir);
-    });
+    });*/
+    
 
     // Criar um botão de edição
     var botaoEditar = document.createElement("button");
